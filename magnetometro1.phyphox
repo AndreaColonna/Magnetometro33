@@ -13,8 +13,7 @@ Andrea Colonna
 	    <container size="0" static="false" init="">Mgy</container>  <!-- campo magnetico lungo l'asse y--> 
 	    <container size="0" static="false" init="">Mgz</container>  <!-- campo magnetico lungo l'asse x-->
 	    <container size="0" static="false" init="">Mgm</container>  <!-- campo magnetico modulo-->
-	  <!--  <container size="0" static="false" init="">Azz</container> -->
-	    
+	  <!--  <container size="0" static="false" init="">Azz</container> -->    
     </data-containers>
  <input>
         <bluetooth mode="notification" rate="1" subscribeOnStart="false" id="Sense">
