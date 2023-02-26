@@ -42,6 +42,28 @@ Andrea Colonna
                   <input axis="x" color="white">Mgt</input>
                   <input axis="y">Mgm</input>
           </graph>
+	  <value label="Campo M. lungo X" size="2" precision="2" unit="[[unit_short_micro_tesla]]" color="green">
+             <input>Mgx</input>
+          </value>
+          <value label="Campo M. lungo Y" size="2" precision="2" unit="[[unit_short_micro_tesla]]" color="blue">
+             <input>Mgy</input>
+          </value>
+          <value label="Campo M. lungo Z" size="2" precision="2" unit="[[unit_short_micro_tesla]]" color="yellow">
+            <input>Mgz</input>
+          </value>
+          <value label="Modulo" size="2" precision="2" unit="[[unit_short_micro_tesla]]" color="white">
+            <input>Mgm</input>
+          </value>
 	</view>
     </views>
+    <analysis sleep="0" onUserInput="false"/>
+    <export>
+        <set name="Dati Misurati">
+            <data name="Tempo t (s)">Mgt</data>
+            <data name="Campo magnetico x (µT)">Mgx</data>
+            <data name="Campo magnetico y (µT)">Mgy</data>
+            <data name="Campo magnetico z (µT)">Mgz</data>
+            <data name="Modulo Campo magnetico (µT)">Mgm</data>
+        </set>
+    </export>
 </phyphox>
