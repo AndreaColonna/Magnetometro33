@@ -12,7 +12,7 @@ Andrea Colonna
 	    <container size="0" static="false" init="">Mgy</container>  <!-- campo magnetico lungo l'asse y--> 
 	    <container size="0" static="false" init="">Mgz</container>  <!-- campo magnetico lungo l'asse x-->
 	    <container size="0" static="false" init="">Mgm</container>  <!-- campo magnetico modulo-->
-	    <container size="0" static="false" init="">Azz</container> 
+	  <!--  <container size="0" static="false" init="">Azz</container> -->
 	    <container size="0" static="false" init="">Mgt</container>  <!-- tempo-->
     </data-containers>
  <input>
@@ -21,7 +21,7 @@ Andrea Colonna
             <output char="cddf1002-30f7-4671-8b43-5e40ba53514a" conversion="float32LittleEndian" offset="4">Mgy</output>
             <output char="cddf1002-30f7-4671-8b43-5e40ba53514a" conversion="float32LittleEndian" offset="8">Mgz</output>
             <output char="cddf1002-30f7-4671-8b43-5e40ba53514a" conversion="float32LittleEndian" offset="12">Mgm</output>
-            <output char="cddf1002-30f7-4671-8b43-5e40ba53514a" conversion="float32LittleEndian" offset="16">Azz</output>
+           <!-- <output char="cddf1002-30f7-4671-8b43-5e40ba53514a" conversion="float32LittleEndian" offset="16">Azz</output> -->
             <output char="cddf1002-30f7-4671-8b43-5e40ba53514a" extra="time">Mgt</output>
         </bluetooth>
     </input>
